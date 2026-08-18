@@ -10,4 +10,16 @@ const store=configureStore({
 })
 
 export default store;
-    
+
+// git remote add origin https://github.com/Rakeshbhandary08/Exploring-React-Redux.git
+// git branch -M main
+// git push -u origin main
+
+
+//how to make store with new slice
+//import {configureStore} from "react-redux"
+//const store=configureStore({
+//     reducer:{
+//         slice1:slice1Reducer
+//     }
+// //})
