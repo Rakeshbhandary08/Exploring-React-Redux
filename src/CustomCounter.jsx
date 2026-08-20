@@ -15,7 +15,9 @@ const CustomCounter = () => {
   return (
     <>
     <input type="number" value={number} onChange={(e)=>setNumber(e.target.value)}></input>
-    <button onClick={()=>handleClick()}>Submit</button>
+    <button onClick={()=>{handleClick();setNumber("")}}>Submit</button>
+    
+     
     </>
   )
 }

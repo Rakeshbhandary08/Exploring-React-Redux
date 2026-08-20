@@ -1,19 +1,16 @@
 import React from 'react'
 import Counting from './Counting'
 import { Provider } from 'react-redux'
-import store from './Stores'
-import CustomCounter from './CustomCounter'
+import itemStore from './swiggy/ItemStore'
+import Header from './swiggy/Header'
+import Cart from './swiggy/Cart'
 
 const App = () => {
   return (
-    <div>
-      <Provider store={store}>
-      <Counting/>
-      <br/>
-      <br/>
-      <CustomCounter/>
-      </Provider>
-    </div>
+    <Provider store={itemStore}>
+       <Header/>
+       <Cart/>
+    </Provider>
   )
 }
 
