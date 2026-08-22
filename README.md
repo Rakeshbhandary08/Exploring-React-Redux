@@ -80,3 +80,13 @@ Then we have to do dispatch the action after importing it:
    
   eg: {type: 'slicer1/Increment', payload: undefined}
   -> THis Increment is a action/function that is created inside the Slicer1 file.
+
+
+# How IMMER works BTS :
+//Immer can handle the object reference creation by itself by creating a new copied object with new reference.
+Immer: New Draft (Duplicate object) update merega
+
+1) Either we have to return a new object my ourself manually or update the existing draft created by IMMEr
+
+# What is PAYLOAD:
+It is nothing but the argument passed by the function
