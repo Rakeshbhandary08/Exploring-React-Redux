@@ -13,3 +13,4 @@ const mySlice=createSlice({
 })
 export const{increment,decrement}=mySlice.actions  // {type:slice3/increment, payload:undefined}
 export default mySlice.reducer
+
